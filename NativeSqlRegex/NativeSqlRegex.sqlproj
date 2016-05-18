@@ -64,6 +64,7 @@
     <Build Include="Functions\RegexMatchGroup.sql" />
     <Build Include="Functions\RegexMatchCharExpr.sql" />
     <Build Include="Functions\RegexMatch.sql" />
+    <Build Include="Functions\RegexIsMatch.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Functions\RegexMatches.sql" />

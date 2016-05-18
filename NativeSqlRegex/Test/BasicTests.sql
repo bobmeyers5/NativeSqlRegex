@@ -15,3 +15,5 @@ select * from RegexMatches('abc ABC 123 aB-c2-D5', '[a-zA-Z0-9-]+')
 select * from RegexMatches('xx 123ab xx',	'\s*(\d+)')
 select * from RegexMatches('xx 123ab xx',	'(\d+)\s*')
 select * from RegexMatches('[].*+',			'\[\].\*\+')
+
+select dbo.RegexIsMatch('abc123', '\w+')
