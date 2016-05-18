@@ -1,6 +1,8 @@
 # NativeSqlRegex
 Basic regular expression support implemented in native T-SQL. Useful for environments where CLR integration is not an option.
 
+**Warning:** While convenient, these functions are not blazing fast. Expect a few hundred matches per second for simple patterns. Performance tips welcome.
+
 ### Examples:
 ```
 IF dbo.RegexIsMatch('234-567-8901', '\d+-\d+-d+') = 1 ...
